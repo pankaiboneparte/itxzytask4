@@ -1,11 +1,16 @@
-html{font-size: 62.5%;
-	height: 100%;}
-body{padding: 0; 
+html{
+	font-size: 62.5%;
+	height: 100%;
+}
+body{
+	padding: 0; 
   	margin:0;
   	background-color:#eff0f4;
   	font-family:STHeitiSC;
-  	height: 100%;}
-header{position:fixed;
+  	height: 100%;
+  }
+header{
+	position:fixed;
 	top:0;
     left:0;
     right:0;
@@ -14,47 +19,67 @@ header{position:fixed;
 	text-align: center;	
 	height: 5.5rem;
 	line-height: 5.5rem;
-	overflow: hidden;}
-.reg a,.close a{text-decoration:none;
+	overflow: hidden;
+}
+.reg a,.close a{
+	text-decoration:none;
 	font-size: 2.55em;
-	color: white;}
-.reg{float: right;
-	margin-right: 1.8rem;}
-.close{float: left;
-	margin-left: 1.8rem;}
+	color: white;
+}
+.reg{
+	float: right;
+	margin-right: 1.8rem;
+}
+.close{
+	float: left;
+	margin-left: 1.8rem;
+}
 .title{font-size: 3rem;}
-main{position: absolute;
+main{
+	position: absolute;
     top: 5.5rem;
     bottom: 0;
     left: 0;
     right: 0;
-	color: #e1e5e7;
-	font-size: 2.55rem;}
-.text,.password{padding: 1.9rem 2.8rem 1.9rem 2.8rem;
+}
+.text,.password{
+	padding: 1.9rem 2.8rem 1.9rem 2.8rem;
 	background-color: white;
-	margin: 1rem 0 1rem 0 }
-main img{width:1.8rem;
+	margin: 1rem 0 1rem 0;
+}
+main img{
+	width:1.8rem;
 	height: 2.7rem;
-	vertical-align: middle;}
-main input{margin-left: 1.9rem;
+	vertical-align: middle;
+}
+main input{
+	width: 50%;
+	margin-left: 1.9rem;
 	padding: 0.6rem 0 0.6rem 2rem;
 	vertical-align: middle;
 	outline: none;
 	border-right: none;
     border-top: none;
     border-bottom: none;
-	border-left: 0.125rem  #eaedee
-	font-size: 2.55em;}
-.login{border: none;
+	border-left: 0.125rem solid #eaedee;
+	font-size: 2.55em;
+}
+.login{
+	border: none;
 	background-color: #5fc0cd;
 	color: white;
 	width:100%;
 	margin-top: 3.375rem;
 	padding:2rem;
     font-size: 3rem;
-    letter-spacing: 1.2rem}
-.forget{float: right;
-	padding: 1rem;}
-.forget a{text-decoration:none;
+    letter-spacing: 1.2rem
+}
+.forget{
+	float: right;
+	padding: 1rem;
+}
+.forget a{
+	text-decoration:none;
 	color: #5fc0cd;
-	font-size: 2.55rem;}
+	font-size: 2.55rem;
+}
