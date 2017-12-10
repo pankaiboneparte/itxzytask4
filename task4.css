@@ -23,7 +23,7 @@ header{
 }
 .reg a,.close a{
 	text-decoration:none;
-	font-size: 2.55em;
+	font-size: 2rem;
 	color: white;
 }
 .reg{
@@ -34,7 +34,7 @@ header{
 	float: left;
 	margin-left: 1.8rem;
 }
-.title{font-size: 3rem;}
+.title{font-size: 2.25rem;}
 main{
 	position: absolute;
     top: 5.5rem;
@@ -62,7 +62,7 @@ main input{
     border-top: none;
     border-bottom: none;
 	border-left: 0.125rem solid #eaedee;
-	font-size: 2.55em;
+	font-size: 2rem;
 }
 .login{
 	border: none;
@@ -71,7 +71,7 @@ main input{
 	width:100%;
 	margin-top: 3.375rem;
 	padding:2rem;
-    font-size: 3rem;
+    font-size: 2.25rem;
     letter-spacing: 1.2rem
 }
 .forget{
@@ -81,5 +81,5 @@ main input{
 .forget a{
 	text-decoration:none;
 	color: #5fc0cd;
-	font-size: 2.55rem;
+	font-size: 2rem;
 }
